@@ -1,4 +1,5 @@
-class Solution {
+package DAY1;
+
     public ListNode reverseList(ListNode head) {
         ListNode temp=head;
         ListNode prev=null;
@@ -9,5 +10,5 @@ class Solution {
             temp=front;
         }
         return prev;
-    }
 }
+
